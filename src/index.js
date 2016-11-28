@@ -10,8 +10,8 @@ sensorsdata.IndexPage = function() {
     this.licenseItems_ = [];
     this.aboutModal_ = null ;
     this.dashboardTemplateList_ = [];
-    this.init()
-}
+    this.init();
+}    
 ;
 sensorsdata.IndexPage.prototype.init = function() {
     var b = sensorsdata.getLocationSearch().project || "";
